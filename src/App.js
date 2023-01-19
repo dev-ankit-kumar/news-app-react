@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import News from './components/News';
@@ -11,7 +10,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/about" element={<About/>}/>
-        
+
         <Route path="/" element={<News/>}/>
       
       
